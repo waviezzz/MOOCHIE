@@ -1,0 +1,84 @@
+/*HERO SECTION*/
+.about-us-img1{
+    width: 40rem;
+    height: auto;
+    margin: 4rem 0 4rem 0;
+}
+
+.about-us-intro{
+    text-align: center;
+}
+
+/*ABOUT US SECTION*/
+.about-img1{
+    width: 80%;
+    height: auto;
+    margin-top: 5rem;
+}
+.about-img1 img{
+    margin-top: 10rem;
+    width: 100%;
+    height: auto;
+}
+.grid{
+    display: grid;
+}
+.content-grid-one{
+    grid-template-columns: 1.7fr 1fr;
+}
+
+.about-info{
+    margin-top: 5rem;
+}
+
+.heading1{
+    text-align: left;
+}
+
+.paragraph1{
+    color: #523E30;
+    width: 80%;
+    margin-top: 2rem;
+}
+
+/*DIVIDER*/
+.banner2{
+    width: 100%;
+    height: 30%;
+    margin-top: 8rem;
+}
+
+.footer2{
+    margin-top: -0.4rem;
+  }
+
+/* RESPONSIVENESS */
+  @media screen and (min-width: 19.5rem) and (max-width: 64rem) {
+    .about-img1 img{
+        margin-top: -2rem;
+        width: 100%;
+        height: auto;
+    }
+    .content-grid-one{
+        grid-template-columns: 1fr;
+    }
+
+    .about-us-img1{
+        width:70%;
+        margin-bottom: -1rem;
+    }
+
+    .about-info{
+        margin-top:2rem;
+    }
+
+    .about-us-img2{
+        width:100%;
+    }
+
+    .about-us-intro img{
+        width: 70%;
+        margin-bottom: 4rem;
+    }
+}
+
